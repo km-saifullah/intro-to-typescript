@@ -1,0 +1,17 @@
+// types of variable in ts -> number, string, boolean
+
+// normal:   numbers: number[]
+// generic:  numbers: Array<number>
+
+// type alias
+type User = {
+  name: string;
+  age: number;
+};
+
+
+// define function return type
+// by default function return type is void
+function login(userData: User): User {
+  return userData;
+}
