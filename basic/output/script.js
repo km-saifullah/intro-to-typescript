@@ -53,3 +53,21 @@ obj = {
 };
 let c;
 c = [1, 2, 3, 4, 5];
+// dynamic type or any type
+let str;
+str = "monmoy";
+str = 25;
+// function
+let myFun;
+myFun = () => {
+    console.log("Hello from myFun");
+};
+myFun();
+const fullName = (a, b, c) => {
+    // optional paramaeter
+    console.log(`${a} ${b}`);
+    let myFullName = [c, a, b];
+    return myFullName;
+};
+fullName("Saifullah", "monmoy");
+console.log(fullName("Khaled", "Saifullah", "Hello"));
