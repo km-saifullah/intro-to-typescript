@@ -27,3 +27,29 @@
 // };
 // person.name = "Sakib";
 // person.country = "Bangladesh";
+// normal variable
+let a; // explicit type declaration
+// a = 5;
+a = "sumit";
+let b;
+b = "monmoy";
+b = 10;
+// array
+let arr = [];
+arr.push("35");
+let arr2 = []; // union type
+arr2.push("Monmoy", 100);
+// arr2.push("Monmoy", 100, true);
+// object
+let obj1;
+obj1 = {
+    key: 1,
+};
+let obj;
+obj = {
+    name: "Monmoy",
+    age: 28,
+    adult: true,
+};
+let c;
+c = [1, 2, 3, 4, 5];

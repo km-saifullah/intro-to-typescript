@@ -37,3 +37,44 @@
 
 // person.name = "Sakib";
 // person.country = "Bangladesh";
+
+// normal variable
+let a: string; // explicit type declaration
+// a = 5;
+a = "sumit";
+
+let b: string | number;
+
+b = "monmoy";
+b = 10;
+
+// array
+let arr: string[] = [];
+
+arr.push("35");
+
+let arr2: (string | number)[] = []; // union type
+arr2.push("Monmoy", 100);
+// arr2.push("Monmoy", 100, true);
+
+// object
+let obj1: object;
+obj1 = {
+  key: 1,
+};
+
+let obj: {
+  name: string;
+  age: number;
+  adult: boolean;
+};
+
+obj = {
+  name: "Monmoy",
+  age: 28,
+  adult: true,
+};
+
+let c: object;
+
+c = [1, 2, 3, 4, 5];
