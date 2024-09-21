@@ -101,3 +101,16 @@ const fullName = (a: string, b: string, c?: string) => {
 fullName("Saifullah", "monmoy");
 console.log(fullName("Khaled", "Saifullah", "Hello"));
 
+// Type alias
+type stringOrNumber = string | number;
+type userType = { name: string; age: number };
+
+const userDetails = (id: stringOrNumber, user: userType) => {
+  console.log(`User id is ${id}, name is ${user.name} and age is ${user.age}`);
+};
+
+const sayHello = (user: userType) => {
+  console.log(`Hello ${user.age > 50 ? "Sir" : "Mr"} ${user.name}`);
+};
+
+userDetails("a1", { name: "monmoy", age: 30 });
