@@ -1,3 +1,23 @@
+What is Typescript
+1. superset of js created by ms
+2. allows static strict typing
+3. extra features-interfaces,enums,tuples,generics
+4. supports es6
+5. based on .NET harmony specefications
+
+What's wrong with js
+1. not suitable for large app
+2. lacks strong typing
+3. weird iheritance, unfamiliar syntax
+4. only errors during runtime
+5. suffers type coercion
+
+Benefits of ts
+1. typescript =  js
+2. complies to js - runs everywhere
+3. familiar oop programming
+4. new features work everywhere
+
 // types of variable in ts -> number, string, boolean
 
 // normal:   numbers: number[]
